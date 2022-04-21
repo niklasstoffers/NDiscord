@@ -1,9 +1,33 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31919.166
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDiscord.WebSocket", "NDiscord.WebSocket\NDiscord.WebSocket.csproj", "{2F6B6D68-46CC-46A8-9601-B4C038D77356}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDiscord.Core", "NDiscord.Core\NDiscord.Core.csproj", "{ACB6B5D1-A3D4-4008-B7D3-FB889ED52CB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDiscord.Rest", "NDiscord.Rest\NDiscord.Rest.csproj", "{199C4F79-5381-4D46-B988-5AC67C2B9260}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F6B6D68-46CC-46A8-9601-B4C038D77356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F6B6D68-46CC-46A8-9601-B4C038D77356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F6B6D68-46CC-46A8-9601-B4C038D77356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F6B6D68-46CC-46A8-9601-B4C038D77356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACB6B5D1-A3D4-4008-B7D3-FB889ED52CB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB6B5D1-A3D4-4008-B7D3-FB889ED52CB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACB6B5D1-A3D4-4008-B7D3-FB889ED52CB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB6B5D1-A3D4-4008-B7D3-FB889ED52CB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{199C4F79-5381-4D46-B988-5AC67C2B9260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{199C4F79-5381-4D46-B988-5AC67C2B9260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{199C4F79-5381-4D46-B988-5AC67C2B9260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{199C4F79-5381-4D46-B988-5AC67C2B9260}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
